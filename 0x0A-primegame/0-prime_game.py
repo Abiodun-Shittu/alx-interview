@@ -5,6 +5,8 @@ Prime game
 
 
 def isWinner(x, nums):
+    """Determines the winner of a prime game session with `x` rounds.
+    """
     if x < 1 or not nums:
         return None
     marias_wins, bens_wins = 0, 0
